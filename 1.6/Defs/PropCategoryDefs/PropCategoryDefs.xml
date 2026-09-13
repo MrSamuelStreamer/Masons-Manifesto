@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropCategoryDef>
+		<defName>UEM_PropCategory_Masonry</defName>
+		<label>Masonry</label>
+		<description>Decorative buildings made from stone</description>
+		<priority>510</priority>
+		<icon>UI/Categories/Props_Masonry</icon>
+	</VFEProps.PropCategoryDef>
+</Defs>

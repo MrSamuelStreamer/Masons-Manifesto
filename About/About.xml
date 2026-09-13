@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Mason's Manifesto</name>
+	<author>UltraEmailMan</author>
+	<url/>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/Categories/Props_Masonry</modIconPath>
+	<packageId>UEM.MasonsManifesto</packageId>
+	<description>Rock and Stone may break my bones, but build base never not hurt brain.</description>
+	<modDependencies>
+          <li>
+            <packageId>vanillaexpanded.vfepropsanddecor</packageId>
+            <displayName>Vanilla Furniture Expanded - Props and Decor</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2102143149</steamWorkshopUrl>
+          </li>
+        </modDependencies>
+        <loadAfter>
+          <li>vanillaexpanded.vfepropsanddecor</li>
+          <li>ferny.propscore</li>
+        </loadAfter>
+</ModMetaData>

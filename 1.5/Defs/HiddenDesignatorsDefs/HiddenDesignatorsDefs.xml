@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFEProps.HiddenDesignatorsDef>
+		<defName>VFEPropsMain_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>UEM_Buttress_Flying</li>
+			<li>UEM_Arch_Segmented_One</li>
+			<li>UEM_Arch_Segmented_Two</li>
+			<li>UEM_Arch_Segmented_Three</li>
+			<li>UEM_Arch_Barrel_One</li>
+			<li>UEM_Arch_Barrel_Two</li>
+			<li>UEM_Arch_Barrel_Three</li>
+			<li>UEM_Window_Short</li>
+			<li>UEM_Window_Medium</li>
+			<li>UEM_Window_Tall</li>
+		</hiddenDesignators>							
+	</VFEProps.HiddenDesignatorsDef>
+
+
+
+
+
+</Defs>

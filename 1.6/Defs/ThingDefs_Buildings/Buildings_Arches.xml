@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- SMALL SEGMENTED ARCH -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>UEM_Arch_Segmented_One</defName>
+    <label>Small Segmented Arch</label>
+    <description>A decorative arch meant to be placed over doorways and between walls. This one is one tile wide.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2041</uiOrder>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <canOverlapZones>true</canOverlapZones>
+    <fertility>0</fertility>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+      <isEdifice>false</isEdifice>
+      <isPlaceOverableWall>true</isPlaceOverableWall>
+    </building>
+    <graphicData>
+      <drawSize>(3,3)</drawSize>
+      <drawOffset>(0,0.01,0)</drawOffset>
+      <texPath>Things/Building/MasonryProps/ArchSegmentedOne/UEM_Arch_Segmented_One</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/MasonryProps/ArchSegmentedOne/UEM_Arch_Segmented_One_Icon</uiIconPath>
+    <uiIconScale>2.0</uiIconScale>
+    <size>(1,1)</size>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <blockWind>false</blockWind>
+    <tickerType>Never</tickerType>
+    <clearBuildingArea>false</clearBuildingArea>
+  </ThingDef>
+
+<!-- MEDIUM SEGMENTED ARCH -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>UEM_Arch_Segmented_Two</defName>
+    <label>Medium Segmented Arch</label>
+    <description>A decorative arch meant to be placed over doorways and between walls. This one is two tiles wide.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2043</uiOrder>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <canOverlapZones>true</canOverlapZones>
+    <fertility>0</fertility>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+      <isEdifice>false</isEdifice>
+      <isPlaceOverableWall>true</isPlaceOverableWall>
+    </building>
+    <graphicData>
+      <drawSize>(3,3)</drawSize>
+      <drawOffset>(0,0.01,0)</drawOffset>
+      <texPath>Things/Building/MasonryProps/ArchSegmentedTwo/UEM_Arch_Segmented_Two</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/MasonryProps/ArchSegmentedTwo/UEM_Arch_Segmented_Two_Icon</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <size>(2,1)</size>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <blockWind>false</blockWind>
+    <tickerType>Never</tickerType>
+    <clearBuildingArea>false</clearBuildingArea>
+  </ThingDef>
+
+<!-- LARGE SEGMENTED ARCH -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>UEM_Arch_Segmented_Three</defName>
+    <label>Large Segmented Arch</label>
+    <description>A decorative arch meant to be placed over doorways and between walls. This one is three tiles wide.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2043</uiOrder>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <canOverlapZones>true</canOverlapZones>
+    <fertility>0</fertility>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+      <isEdifice>false</isEdifice>
+      <isPlaceOverableWall>true</isPlaceOverableWall>
+    </building>
+    <graphicData>
+      <drawSize>(4,4)</drawSize>
+      <drawOffset>(0,0.01,0)</drawOffset>
+      <texPath>Things/Building/MasonryProps/ArchSegmentedThree/UEM_Arch_Segmented_Three</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/MasonryProps/ArchSegmentedThree/UEM_Arch_Segmented_Three_Icon</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <size>(3,1)</size>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <blockWind>false</blockWind>
+    <tickerType>Never</tickerType>
+    <clearBuildingArea>false</clearBuildingArea>
+  </ThingDef>
+
+<!-- SMALL BARREL ARCH -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>UEM_Arch_Barrel_One</defName>
+    <label>Small Barrel Arch</label>
+    <description>A decorative arch meant to be placed over doorways and between walls. This one is one tile wide.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2041</uiOrder>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <canOverlapZones>true</canOverlapZones>
+    <fertility>0</fertility>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+      <isEdifice>false</isEdifice>
+      <isPlaceOverableWall>true</isPlaceOverableWall>
+    </building>
+    <graphicData>
+      <drawSize>(3,3)</drawSize>
+      <drawOffset>(0,0.01,0)</drawOffset>
+      <texPath>Things/Building/MasonryProps/ArchBarrelOne/UEM_Arch_Barrel_One</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/MasonryProps/ArchBarrelOne/UEM_Arch_Barrel_One_Icon</uiIconPath>
+    <uiIconScale>2.0</uiIconScale>
+    <size>(1,1)</size>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <blockWind>false</blockWind>
+    <tickerType>Never</tickerType>
+    <clearBuildingArea>false</clearBuildingArea>
+  </ThingDef>
+
+<!-- MEDIUM BARREL ARCH -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>UEM_Arch_Barrel_Two</defName>
+    <label>Medium Barrel Arch</label>
+    <description>A decorative arch meant to be placed over doorways and between walls. This one is two tiles wide.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2043</uiOrder>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <canOverlapZones>true</canOverlapZones>
+    <fertility>0</fertility>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+      <isEdifice>false</isEdifice>
+      <isPlaceOverableWall>true</isPlaceOverableWall>
+    </building>
+    <graphicData>
+      <drawSize>(3,3)</drawSize>
+      <drawOffset>(0,0.01,0)</drawOffset>
+      <texPath>Things/Building/MasonryProps/ArchBarrelTwo/UEM_Arch_Barrel_Two</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/MasonryProps/ArchBarrelTwo/UEM_Arch_Barrel_Two_Icon</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <size>(2,1)</size>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <blockWind>false</blockWind>
+    <tickerType>Never</tickerType>
+    <clearBuildingArea>false</clearBuildingArea>
+  </ThingDef>
+
+<!-- LARGE BARREL ARCH -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>UEM_Arch_Barrel_Three</defName>
+    <label>Large Barrel Arch</label>
+    <description>A decorative arch meant to be placed over doorways and between walls. This one is three tiles wide.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2043</uiOrder>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <canOverlapZones>true</canOverlapZones>
+    <fertility>0</fertility>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+      <isEdifice>false</isEdifice>
+      <isPlaceOverableWall>true</isPlaceOverableWall>
+    </building>
+    <graphicData>
+      <drawSize>(4,4)</drawSize>
+      <drawOffset>(0,0.01,0)</drawOffset>
+      <texPath>Things/Building/MasonryProps/ArchBarrelThree/UEM_Arch_Barrel_Three</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/MasonryProps/ArchBarrelThree/UEM_Arch_Barrel_Three_Icon</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <size>(3,1)</size>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <blockWind>false</blockWind>
+    <tickerType>Never</tickerType>
+    <clearBuildingArea>false</clearBuildingArea>
+  </ThingDef>
+
+
+</Defs>

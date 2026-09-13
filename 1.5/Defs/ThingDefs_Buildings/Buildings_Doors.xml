@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Door Base -->
+
+
+  <ThingDef ParentName="DoorBase">
+    <defName>UEM_Gate_Wood_One</defName>
+    <label>Small Wooden Gate</label>
+    <description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
+    <designationCategory>Structure</designationCategory>
+    <thingClass>Building_Door</thingClass>
+    <graphicData>
+      <texPath>Things/Building/MasonryProps/GateWoodOne/UEM_Gate_Wood_One</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <size>(1, 1)</size>
+    <uiIconPath>Things/Building/MasonryProps/GateWoodOne/UEM_Gate_Wood_One_Icon</uiIconPath>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <statBases>
+      <WorkToBuild>1100</WorkToBuild>
+      <MaxHitPoints>200</MaxHitPoints>
+    </statBases>
+    <costStuffCount>25</costStuffCount>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/MasonryProps/GateWoodOne/UEM_Gate_Wood_One_Icon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="DoorBase">
+    <defName>UEM_Gate_Wood_Two</defName>
+    <label>Medium Wooden Gate</label>
+    <description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
+    <designationCategory>Structure</designationCategory>
+    <thingClass>Building_MultiTileDoor</thingClass>
+    <graphicData>
+      <texPath>Things/Building/MasonryProps/GateWoodTwo/UEM_Gate_Wood_Two</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <size>(2, 1)</size>
+    <uiIconPath>Things/Building/MasonryProps/GateWoodTwo/UEM_Gate_Wood_Two_Icon</uiIconPath>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <rotatable>true</rotatable>
+    <statBases>
+      <WorkToBuild>1700</WorkToBuild>
+      <MaxHitPoints>400</MaxHitPoints>
+    </statBases>
+    <costStuffCount>50</costStuffCount>
+    <building>
+      <blueprintGraphicData>
+        <drawSize>(2,1)</drawSize>
+        <texPath>Things/Building/MasonryProps/GateWoodTwo/UEM_Gate_Wood_Two_Icon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+      </blueprintGraphicData>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_MultiCellDoor</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="DoorBase">
+    <defName>UEM_Gate_Wood_Three</defName>
+    <label>Large Wooden Gate</label>
+    <description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
+    <designationCategory>Structure</designationCategory>
+    <thingClass>Building_MultiTileDoor</thingClass>
+    <graphicData>
+      <texPath>Things/Building/MasonryProps/GateWoodThree/UEM_Gate_Wood_Three</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <size>(3, 1)</size>
+    <uiIconPath>Things/Building/MasonryProps/GateWoodThree/UEM_Gate_Wood_Three_Icon</uiIconPath>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <rotatable>true</rotatable>
+    <statBases>
+      <WorkToBuild>2300</WorkToBuild>
+      <MaxHitPoints>600</MaxHitPoints>
+    </statBases>
+    <costStuffCount>75</costStuffCount>
+    <building>
+      <blueprintGraphicData>
+        <drawSize>(3,1)</drawSize>
+        <texPath>Things/Building/MasonryProps/GateWoodThree/UEM_Gate_Wood_Three_Icon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+      </blueprintGraphicData>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_MultiCellDoor</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="DoorBase">
+    <defName>UEM_Gate_Castle_Three</defName>
+    <label>Large Castle Gate</label>
+    <description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
+    <designationCategory>Structure</designationCategory>
+    <thingClass>Building_MultiTileDoor</thingClass>
+    <graphicData>
+      <texPath>Things/Building/MasonryProps/GateCastleThree/UEM_Gate_Castle_Three</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <size>(3, 2)</size>
+    <uiIconPath>Things/Building/MasonryProps/GateCastleThree/UEM_Gate_Castle_Three_Icon</uiIconPath>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <rotatable>true</rotatable>
+    <statBases>
+      <WorkToBuild>2300</WorkToBuild>
+      <MaxHitPoints>900</MaxHitPoints>
+    </statBases>
+    <costStuffCount>150</costStuffCount>
+    <building>
+      <blueprintGraphicData>
+        <drawSize>(3,2)</drawSize>
+        <texPath>Things/Building/MasonryProps/GateCastleThree/UEM_Gate_Castle_Three_Icon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+      </blueprintGraphicData>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_MultiCellDoor</li>
+    </placeWorkers>
+  </ThingDef>
+
+
+
+
+</Defs>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- FLYING BUTTRESS -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>UEM_Buttress_Flying</defName>
+    <label>Flying Buttress</label>
+    <description>A structural support featuring an arch placed between the main building and an external pillar.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2040</uiOrder>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <holdsRoof>true</holdsRoof>
+    <canOverlapZones>true</canOverlapZones>
+    <rotatable>true</rotatable>
+    <fertility>0</fertility>
+    <specialDisplayRadius>6.9</specialDisplayRadius> <!-- must be kept in sync with roof hold-up radius -->
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+    </building>
+    <graphicData>
+      <drawSize>(4,4)</drawSize>
+      <drawOffset>(0,0,0.0)</drawOffset>
+      <drawOffsetNorth>(0,0,-0.5)</drawOffsetNorth>
+      <drawOffsetSouth>(0,0,0.5)</drawOffsetSouth>
+      <drawOffsetEast>(0,0,0)</drawOffsetEast>
+      <drawOffsetWest>(0,0,0)</drawOffsetWest>
+      <texPath>Things/Building/MasonryProps/ButtressFlying/UEM_Buttress_Flying</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/MasonryProps/ButtressFlying/UEM_Buttress_Flying_Icon</uiIconPath>
+    <uiIconScale>0.8</uiIconScale>
+    <size>(1,2)</size>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+  </ThingDef>
+
+<!-- STEPPED BUTTRESS -->
+
+
+</Defs>

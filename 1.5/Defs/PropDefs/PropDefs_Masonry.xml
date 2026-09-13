@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Buttress_Flying</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>10</priority>
+		<prop>UEM_Buttress_Flying</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Arch_Segmented_One</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>20</priority>
+		<prop>UEM_Arch_Segmented_One</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Arch_Segmented_Two</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>21</priority>
+		<prop>UEM_Arch_Segmented_Two</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Arch_Segmented_Three</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>22</priority>
+		<prop>UEM_Arch_Segmented_Three</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Arch_Barrel_One</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>23</priority>
+		<prop>UEM_Arch_Barrel_One</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Arch_Barrel_Two</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>24</priority>
+		<prop>UEM_Arch_Barrel_Two</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Arch_Barrel_Three</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>25</priority>
+		<prop>UEM_Arch_Barrel_Three</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Window_Short</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>30</priority>
+		<prop>UEM_Window_Short</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Window_Medium</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>31</priority>
+		<prop>UEM_Window_Medium</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>UEM_Prop_Structures_Window_Tall</defName>
+		<category>UEM_PropCategory_Masonry</category>
+		<priority>32</priority>
+		<prop>UEM_Window_Tall</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+</Defs>
+
+
+
+
